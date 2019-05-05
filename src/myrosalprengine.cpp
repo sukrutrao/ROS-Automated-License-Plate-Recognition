@@ -1,3 +1,17 @@
+/**
+ * @file myrosalprengine.cpp
+ * @author Sukrut Rao (cs15btech11036@iith.ac.in)
+ * @brief Implements subscriber node to perform license plate recognition
+ *        using OpenALPR
+ * @version 0.0.1
+ * @date 2019-05-05
+ * 
+ * @copyright Copyright (c) 2019, Sukrut Rao. All rights reserved.
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. 
+ * 
+ */
+
 #include <unistd.h>
 #include <fstream>
 #include <sstream>
