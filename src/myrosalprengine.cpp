@@ -12,28 +12,19 @@
  * 
  */
 
-#include <unistd.h>
-#include <fstream>
-#include <sstream>
-#include <thread>
-#include <string>
+#include <cassert>
 #include <cmath>
-#include <alpr.h>
-#include <cstdlib>
-#include <assert.h>
-
-#include <experimental/filesystem>
-#include <sys/time.h>
 #include <csignal>
-#include <ros/xmlrpc_manager.h>
+#include <fstream>
+#include <string>
 
-#include <ros/ros.h>
-#include <ros/transport_hints.h>
-#include <image_transport/image_transport.h>
-#include <opencv2/highgui/highgui.hpp>
 #include <cv_bridge/cv_bridge.h>
-#include <opencv2/imgproc/imgproc.hpp>
+#include <image_transport/image_transport.h>
+#include <ros/ros.h>
+#include <ros/xmlrpc_manager.h>
 #include <sensor_msgs/image_encodings.h>
+
+#include <alpr.h>
 
 /**
  * @brief Stores data for a single license plate
